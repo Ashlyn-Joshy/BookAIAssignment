@@ -1,5 +1,8 @@
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
+//components
+import Pricing from "./Pages/Pricing";
+
 const AppComponent = () => {
   return <Outlet />;
 };
@@ -11,7 +14,7 @@ const appRouter = createBrowserRouter([
     children: [
       {
         path: "/",
-        element: <h1>Book Generator API</h1>,
+        element: <Pricing />,
       },
     ],
   },
