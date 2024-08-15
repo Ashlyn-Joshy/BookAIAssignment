@@ -1,7 +1,26 @@
+import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
+
+const AppComponent = () => {
+  return <Outlet />;
+};
+
+const appRouter = createBrowserRouter([
+  {
+    path: "/",
+    element: <AppComponent />,
+    children: [
+      {
+        path: "/",
+        element: <h1>Book Generator API</h1>,
+      },
+    ],
+  },
+]);
+
 function App() {
   return (
     <div className="App">
-      <h1 className="text-2xl font-bold">Welcome to Book Generator API</h1>
+      <RouterProvider router={appRouter} />
     </div>
   );
 }
