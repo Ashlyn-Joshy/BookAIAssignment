@@ -55,7 +55,7 @@ const Endpoints = () => {
       </table>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Response</h3>
       <div className="border border-slate-400 rounded">
-        <pre className="p-4 rounded text-white">
+        <pre className="p-4 rounded text-white max-w-full overflow-x-auto md:max-w-lg lg:max-w-2xl">
           <code>
             {`{
     "message": "Book generation started",

@@ -5,6 +5,7 @@ import Overview from "./Overview";
 import Authentication from "./Authentication";
 import Endpoints from "./Endpoints";
 import Tutorial from "./Tutorial";
+import CodeExamples from "./CodeExamples";
 
 const PricingBody = () => {
   return (
@@ -13,6 +14,7 @@ const PricingBody = () => {
       <Authentication />
       <Endpoints />
       <Tutorial />
+      <CodeExamples />
     </div>
   );
 };
