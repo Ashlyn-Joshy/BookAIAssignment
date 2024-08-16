@@ -2,7 +2,10 @@ import React from "react";
 
 const Endpoints = () => {
   return (
-    <div className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full">
+    <div
+      id="endpoints"
+      className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full"
+    >
       <h1 className=" text-2xl font-bold text-blue-400">Endpoints</h1>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Generate Book</h3>
       <p className="pt-2">

@@ -10,7 +10,10 @@ const Authentication = () => {
     setMessage(`Your API Key:  ${newKey}`);
   };
   return (
-    <div className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full">
+    <div
+      id="authentication"
+      className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full"
+    >
       <h1 className=" text-2xl font-bold text-blue-400">Authentication</h1>
       <p className="text-white">
         To use the API, you need to include your API key in the header of each

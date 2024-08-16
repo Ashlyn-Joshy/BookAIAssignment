@@ -2,7 +2,10 @@ import React from "react";
 
 const APIPricing = () => {
   return (
-    <div className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full">
+    <div
+      id="pricing"
+      className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full"
+    >
       <h1 className=" text-2xl font-bold text-blue-400">API Pricing</h1>
       <p className="text-white">
         Our API pricing is based on the model used and the number of tokens

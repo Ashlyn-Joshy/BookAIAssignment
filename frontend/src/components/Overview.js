@@ -2,7 +2,10 @@ import React from "react";
 
 const Overview = () => {
   return (
-    <div className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 w-full h-full">
+    <div
+      id="overview"
+      className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 w-full h-full"
+    >
       <h1 className=" text-2xl font-bold text-blue-400">Overview</h1>
       <p className="text-white">
         The Book Generator API allows you to generate books on various topics
