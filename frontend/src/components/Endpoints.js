@@ -12,7 +12,7 @@ const Endpoints = () => {
         </button>
       </p>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Request Body</h3>
-      <table className="mt-2 border w-full text-white border-slate-400 rounded">
+      <table className="mt-2 border w-full text-white border-slate-400 rounded sm:text-sm sm:px-1 md:text-base md:px-2">
         <tr className="uppercase bg-blue-500 text-white text-left">
           <th className="py-5 px-2">Parameter</th>
           <th className="py-5 px-2">Type</th>

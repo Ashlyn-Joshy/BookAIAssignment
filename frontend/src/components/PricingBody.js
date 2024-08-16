@@ -6,6 +6,7 @@ import Authentication from "./Authentication";
 import Endpoints from "./Endpoints";
 import Tutorial from "./Tutorial";
 import CodeExamples from "./CodeExamples";
+import APIPricing from "./APIPricing";
 
 const PricingBody = () => {
   return (
@@ -15,6 +16,7 @@ const PricingBody = () => {
       <Endpoints />
       <Tutorial />
       <CodeExamples />
+      <APIPricing />
     </div>
   );
 };
