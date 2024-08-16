@@ -2,6 +2,7 @@ import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 //components
 import Pricing from "./Pages/Pricing";
+import "./global.css";
 
 const AppComponent = () => {
   return <Outlet />;

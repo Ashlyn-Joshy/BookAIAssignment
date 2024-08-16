@@ -4,12 +4,12 @@ const CodeExamples = () => {
   return (
     <div
       id="code-examples"
-      className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full"
+      className="border border-slate-700 rounded px-6 pb-6 pt-10  mt-6 w-full h-full dark:bg-slate-700"
     >
       <h1 className=" text-2xl font-bold text-blue-400">Code Examples</h1>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Python</h3>
       <div className="border border-slate-400 rounded">
-        <pre className="p-4 rounded text-white max-w-full overflow-x-auto md:max-w-lg lg:max-w-2xl">
+        <pre className="p-4 rounded text-black dark:text-white max-w-full overflow-x-auto md:max-w-lg lg:max-w-2xl">
           <code>
             {`import requests
 
@@ -43,7 +43,7 @@ else:
         JavaScript (Node.js)
       </h3>
       <div className="border border-slate-400 rounded">
-        <pre className="p-4 rounded text-white max-w-full overflow-x-auto md:max-w-full lg:max-w-full">
+        <pre className="p-4 rounded text-black dark:text-white max-w-full overflow-x-auto md:max-w-full lg:max-w-full">
           <code>{`const axios = require('axios');
 
 const API_KEY = 'your_api_key_here';

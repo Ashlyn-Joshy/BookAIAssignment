@@ -1,0 +1,23 @@
+body {
+  transition: background-color 0.3s ease;
+}
+
+.bg-gray-700 {
+  background-color: #374151;
+}
+
+.bg-gray-800 {
+  background-color: #1f2937;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.dark .bg-gray-700 {
+  background-color: #1f2937;
+}
+
+.dark .text-white {
+  color: #ffffff;
+}

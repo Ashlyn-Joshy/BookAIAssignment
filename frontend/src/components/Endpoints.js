@@ -4,7 +4,7 @@ const Endpoints = () => {
   return (
     <div
       id="endpoints"
-      className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full"
+      className="border border-slate-700 rounded px-6 pb-6 pt-10 mt-6 w-full h-full dark:bg-slate-700"
     >
       <h1 className=" text-2xl font-bold text-blue-400">Endpoints</h1>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Generate Book</h3>
@@ -15,7 +15,7 @@ const Endpoints = () => {
         </button>
       </p>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Request Body</h3>
-      <table className="mt-2 border w-full text-white border-slate-400 rounded sm:text-sm sm:px-1 md:text-base md:px-2">
+      <table className="mt-2 border w-full text-black dark:text-white border-slate-400 rounded sm:text-sm sm:px-1 md:text-base md:px-2">
         <tr className="uppercase bg-blue-500 text-white text-left">
           <th className="py-5 px-2">Parameter</th>
           <th className="py-5 px-2">Type</th>
@@ -58,7 +58,7 @@ const Endpoints = () => {
       </table>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Response</h3>
       <div className="border border-slate-400 rounded">
-        <pre className="p-4 rounded text-white max-w-full overflow-x-auto md:max-w-lg lg:max-w-2xl">
+        <pre className="p-4 rounded text-black dark:text-white max-w-full overflow-x-auto md:max-w-lg lg:max-w-2xl">
           <code>
             {`{
     "message": "Book generation started",

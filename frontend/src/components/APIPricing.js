@@ -4,14 +4,14 @@ const APIPricing = () => {
   return (
     <div
       id="pricing"
-      className="border border-slate-700 rounded px-6 pb-6 pt-10 bg-slate-600 mt-6 w-full h-full"
+      className="border border-slate-700 rounded px-6 pb-6 pt-10  mt-6 w-full h-full dark:bg-slate-700"
     >
       <h1 className=" text-2xl font-bold text-blue-400">API Pricing</h1>
-      <p className="text-white">
+      <p className="text-black dark:text-white">
         Our API pricing is based on the model used and the number of tokens
         processed. Here's a breakdown of the costs:
       </p>
-      <table className="mt-2 border w-full text-white border-slate-400 rounded sm:text-sm sm:px-1 md:text-base md:px-2">
+      <table className="mt-2 border w-full text-black dark:text-white border-slate-400 rounded sm:text-sm sm:px-1 md:text-base md:px-2">
         <tr className="uppercase bg-blue-500 text-white text-left">
           <th className="py-5 px-2">API</th>
           <th className="py-5 px-2">Model</th>
@@ -39,12 +39,12 @@ const APIPricing = () => {
         </tr>
       </table>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Token Estimation</h3>
-      <p className="text-white">
+      <p className="text-black dark:text-white">
         On average, 1 token is approximately 4 characters or 0.75 words. For
         precise pricing, we recommend using our token calculator tool.
       </p>
       <h3 className="text-xl font-bold text-blue-400 mt-7">Billing</h3>
-      <p className="text-white">
+      <p className="text-black dark:text-white">
         You will only be charged for the tokens used in generating the book. The
         API tracks token usage and bills accordingly. Detailed usage reports are
         available in your account dashboard.
